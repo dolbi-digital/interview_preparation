@@ -1,7 +1,6 @@
 package stream.groupby;
 
 class Phone{
-
     private String name;
     private String company;
     private int price;

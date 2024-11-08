@@ -8,7 +8,6 @@ public class array_max {
         int sum = 0;
 
         for(int i=0; i < array.length; i++) {
-            System.out.println(array[i]);
             sum+=array[i];
         }
         System.out.println(sum);

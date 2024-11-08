@@ -21,6 +21,5 @@ public class CountNumbers {
 
         System.out.println(map.values());
         System.out.println(map.keySet());
-
     }
 }

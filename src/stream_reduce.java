@@ -6,7 +6,7 @@ public class stream_reduce {
     public static void main(String [] args) {
         List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5);
         int result = numbers
-                .stream().reduce(Integer::sum).get();
+                .stream().reduce((a,b) -> a + b).get();
         System.out.println(result);
 
         List<String> letters = Arrays.asList("aaa", "bbb", "ccc", "ddd", "eee");

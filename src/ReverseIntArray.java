@@ -19,7 +19,6 @@ public class ReverseIntArray {
                 i--;
             }
         }
-
         System.out.println(Arrays.toString(array2));
 
 
@@ -30,7 +29,6 @@ public class ReverseIntArray {
             array[n-1-i] = array[i];
             array[i] = temp;
         }
-
         System.out.println(Arrays.toString(array));
     }
 }

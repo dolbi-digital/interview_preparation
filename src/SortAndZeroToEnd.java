@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class _Sandbox {
+public class SortAndZeroToEnd {
     public static void main(String[] args) {
         int[] array = {8, 6, 1, 0, 0, 9, 0, 2, 4, 3};
         System.out.println(Arrays.toString(bubbleSort(array)));

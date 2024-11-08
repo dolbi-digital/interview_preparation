@@ -7,7 +7,7 @@ public class SortArrayBubble {
         while (!flag) {
             flag = true;
             for(int i=0; i < mas.length - 1; i++) {
-                if (mas[i+1] < mas[i]) {
+                if (mas[i] > mas[i+1]) {
                     flag = false;
                     int buf = mas[i];
                     mas[i] = mas[i+1];

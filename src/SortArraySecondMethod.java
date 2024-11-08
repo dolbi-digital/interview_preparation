@@ -6,7 +6,7 @@ public class SortArraySecondMethod {
 
         for(int i=0; i < mas.length; i++) {
             for(int j=mas.length - 1; j > i; j--) {
-                if (mas[j-1] > mas[j]) {
+                if (mas[j] < mas[j-1]) {
                     int buf = mas[j];
                     mas[j] = mas[j-1];
                     mas[j-1] = buf;
